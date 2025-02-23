@@ -1,4 +1,8 @@
 import numpy as np
 import pandas as pd
-from sklearn.cluster import KMeans
+import tensorflow as tf
+from tensorflow.keras.preprocessing.image import ImageDataGenerator
+from tensorflow.keras.callbacks import EarlyStopping
 
+
+print("TensorFlow version:", tf.__version__)
